@@ -7,7 +7,7 @@ plugins {
     alias(libs.plugins.detekt)
     alias(libs.plugins.dokka)
     alias(libs.plugins.kotlin.android)
-    id("signing")
+//    id("signing")
     id("maven-publish")
 }
 
@@ -207,10 +207,10 @@ afterEvaluate {
         }
     }
 
-    signing {
-        useGpgCmd()
-        sign(publishing.publications.getByName("maven"))
-    }
+//    signing {
+//        useGpgCmd()
+//        sign(publishing.publications.getByName("maven"))
+//    }
 }
 
 detekt {
