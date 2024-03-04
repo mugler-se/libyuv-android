@@ -12,7 +12,7 @@ plugins {
 }
 
 object Maven {
-    const val groupId = "io.github.crow-misia.libyuv"
+    const val groupId = "io.github.mugler-se.libyuv"
     const val artifactId = "libyuv-android"
     const val name = "libyuv-android"
     const val desc = "LibYuv for Android"
