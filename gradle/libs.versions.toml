@@ -8,19 +8,19 @@ android-library = { id = "com.android.library", version.ref = "android-gradle-pl
 
 kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
 
-detekt = { id = "io.gitlab.arturbosch.detekt", version = "1.23.5" }
+detekt = { id = "io.gitlab.arturbosch.detekt", version = "1.23.6" }
 
 dokka = { id = "org.jetbrains.dokka", version.ref = "dokka" }
 
 [versions]
 
-android-gradle-plugin = "8.3.0"
+android-gradle-plugin = "8.3.1"
 
-kotlin = "1.9.22"
+kotlin = "1.9.23"
 
 androidx-camera = "1.4.0-alpha04"
 
-androidx-activity = "1.9.0-alpha03"
+androidx-activity = "1.9.0-beta01"
 
 androidx-appcompat = "1.7.0-alpha03"
 
@@ -36,7 +36,7 @@ androidx-test-rules = "1.6.0-alpha03"
 
 truth = "1.4.2"
 
-dokka = "1.9.10"
+dokka = "1.9.20"
 
 [libraries]
 
